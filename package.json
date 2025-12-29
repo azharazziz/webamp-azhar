@@ -1,0 +1,22 @@
+{
+  "name": "webamp-music-player",
+  "version": "1.0.0",
+  "description": "Webamp based web music player for Armbian",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [
+    "webamp",
+    "music-player",
+    "winamp",
+    "mp3"
+  ],
+  "author": "Azhar",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "music-metadata": "^8.1.3"
+  }
+}
